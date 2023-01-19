@@ -35,7 +35,7 @@ export class App extends Component {
 
     return (
       <div>
-        <Section title="Please leave feedback">
+        <Section title="Please leave feedback!">
           <FeedbackOptions
             options={feedbackOptions}
             onLeaveFeedback={this.handleFeedback}
